@@ -1,0 +1,48 @@
+h1, h2, h3, h4, h5 {
+    font-family: 'Gloock', serif!important;
+}
+
+.product-info {
+        &__promotion-description {
+        display:none!important;
+    }
+}
+
+.badge {
+  display:none!important;
+}
+
+
+.product-info__promotion-description {
+ display:none!important;
+}
+
+.announcement-bar {
+  font-weight: bold!important;
+  color: #fff!important;
+    line-height: 0!important;
+  background-color: var(--color-primary)!important;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*.grid__column--6 {
+    margin-botom: 20px;
+  max-width:25%!important;
+}
+
+.container {
+  max-width: none!important;
+}
+*/
